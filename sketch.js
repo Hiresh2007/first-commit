@@ -73,6 +73,7 @@ function draw() {
   background(255);
   textSize(30);
   text("Score: "+ score, 550,50);
+  text("Drag down to Jump", 500,500)
   
   if (gameState===PLAY){
     score = score + Math.round(getFrameRate()/60);
